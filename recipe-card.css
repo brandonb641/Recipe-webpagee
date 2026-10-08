@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    min-height: 400px;
+    margin: 60px auto;
+    padding: 30px 45px;
+    background-image: url("food-image-bg.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+h1 {
+    margin: 0 0 15px 50%;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.recipies-info {
+    margin-left: 50%;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 25px;
+}
+
+.recipies-info p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.recipies-info span {
+    color: #a8d63c;
+}
+
+.btn-primary {
+    margin-left: 50%;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 12px;
+    background-color: #a8d63c;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #8fbd28;
+}
+
+.prep-steps {
+    width: 48%;
+    margin: 20px 0 0 50%;
+    padding: 0;
+    list-style: none;
+}
+
+.step {
+    margin-bottom: 15px;
+    font-size: 8px;
+    line-height: 1.5;
+    color: #ffffff;
+}
